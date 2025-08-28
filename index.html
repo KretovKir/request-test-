@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Симуляция отправки запроса</title>
+    <script defer src="app.js"></script>
+    <script defer src='request.js'></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Симуляция отправки запроса</h1>
+        
+        <div class="form-group">
+            <label for="requestBody">Тело запроса (JSON):</label>
+            <textarea id="requestBody" placeholder="Введите JSON для url1...">{"example": "data"}</textarea>
+        </div>
+        
+        <button id="sendRequest">Отправить запрос</button>
+        
+        <div id="result"></div>
+    </div>
+
+</body>
+</html>
