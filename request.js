@@ -16,7 +16,7 @@ async function fetchData(body) {
           await new Promise(resolve => setTimeout(resolve, 1000));
           
           // симуляция рандомного ответа url2
-          const isReady = Math.random() > 0.3;
+          const isReady = Math.random() > 0.5;
           
           if (isReady) {
               clearTimeout(timeoutId);
