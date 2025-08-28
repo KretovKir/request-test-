@@ -73,6 +73,12 @@ body .error {
   border-color: #f5c6cb;
   color: #721c24;
 }
+body .error-message {
+  margin-top: 20px;
+  background-color: #58262a;
+  padding: 24px;
+  color: #fff;
+}
 body .loading {
   text-align: center;
   color: #6c757d;

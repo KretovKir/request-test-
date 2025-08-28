@@ -17,7 +17,11 @@ sendRequestBtn.addEventListener('click', async () => {
         resultEl.innerHTML = `
             <div class="result error">
                 <div>Error: Неверный JSON формат</div>
+            </div> 
+            <div class='error-message'>
+              ${e.message}
             </div>`;
+        
         return;
     }
     
